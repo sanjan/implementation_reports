@@ -1,0 +1,416 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+html { overflow: -moz-scrollbars-vertical; } 
+body {
+	margin: 10px 0;
+	padding: 0;
+	background: #FFFFFF;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	color: #666666;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	margin: 0;
+	font-size: .875em;
+}
+
+blockquote, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	text-align: justify;
+}
+p{
+margin-top:2px;
+
+}
+
+
+a {
+	color: #A5B80D;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF6000;
+}
+
+/* Header */
+
+#header {
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	padding: 0 0 0 65px;
+	background: url(images/img01.gif) no-repeat left center;
+	width:700px;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	font-weight:lighter;
+	font-size: 30px;
+	color: #A5B80D;
+}
+
+#logo h2 {
+	margin: 0 0 0 3px;
+	padding: 0;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#logo a {
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+
+/* Menu */
+
+#menu {
+	float: center;
+	padding: 20px 0 0 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 17px;
+	padding: 0 17px 0 19px;
+	text-decoration: none;
+	background: url(images/img02.gif) no-repeat left center;
+	color: #A5B80D;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+	color: #FF6000;
+}
+
+#menu .first a {
+	background: none;
+}
+
+/* Content */
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* Welcome */
+
+#welcome {
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+#welcome .more {
+	padding-top: 15px;
+	border-top: 1px dashed #CCCCCC;
+}
+
+#welcome .more a {
+	padding-left: 15px;
+	background: url(images/img05.gif) no-repeat left center;
+}
+
+/* News */
+
+#news {
+	float: right;
+	width: 350px;
+	margin-bottom: 20px;
+}
+
+#news h3 {
+	padding-left: 15px;
+	background: url(images/img04.gif) no-repeat left top;
+}
+
+#news p {
+	padding-left: 15px;
+}
+
+#news .lined {
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 15px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#news .more {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#news .more a {
+	padding-left: 15px;
+	background: url(images/img05.gif) no-repeat left center;
+}
+
+/* Feature */
+
+#feature {
+	clear: both;
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 20px 10px 20px;
+	background: #F5F5F5;
+	border: 1px solid #E0E0E0;
+}
+
+#feature img {
+	float: right;
+	margin-left: 20px;
+}
+
+#feature h2 {
+	margin: 0;
+}
+
+/* Footer */
+
+#footer {
+	width: 700px;
+	margin: 0 auto;
+/*	padding: 10px 0 50px 65px;
+	background: url(images/img01.gif) no-repeat left top; */
+	
+	clear: both;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	font-size: smaller;
+	color: #CCCCCC;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
+
+#footer a:hover {
+	color: #666666;
+}
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url('images/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+	float:left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+.formbutton{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#999;
+color:#666;
+font-weight:bold;
+padding: 1px 2px;
+background:url('images/formbg.gif') repeat-x left top;
+}
+/* Post */
+
+.post {
+}
+
+.post .title {
+	margin-top: 20px;
+	padding: 0 0 7px 18px;
+	background: url(images/img03.gif) no-repeat left 50%;
+	color:#A5B80D;
+	
+}
+.post .author {
+margin-left:10px;
+margin-bottom: 20px;
+font-style:italic;
+}
+
+.post .entry {
+}
+
+.post .entry blockquote {
+	padding: 2px 5px;
+	background-color:#F4FBBD;
+	margin:10px;
+	color:#2F4600;
+	border: #2F4600 1px  solid;
+}
+.post .entry blockquote p { font-size: 11px; padding: 2px 0px; margin: 2px 0px; line-height: 15px;}
+.post .entry blockquote li { padding: 2px 0px 2px 15px; list-style-type: none; background: url(images/PostContentBlockLiIco.png) no-repeat left top; font-size: 11px; line-height: 15px; color:#336699; }
+.post .entry blockquote a { color:#0080ca; }
+.post .entry blockquote a:visited { color:#0080ca; }
+.post .entry blockquote a:hover { color:#003399; }
+
+
+
+
+.post .meta {
+	border-top: 1px  dashed #86910F ;
+	padding: 15px 10px 30px 10px;
+}
+
+.post .meta p {
+	margin: 0;
+	line-height: normal;
+	
+	color: #999999;
+}
+
+.post .meta .byline {
+	float: left;
+	font-style:italic;
+}
+
+.meta .links {
+	float:right;
+}
+
+.post .meta .more {
+	padding: 0 20px 0 18px;
+	background: url(images/img06.gif) no-repeat left center;
+}
+
+.post .meta .comments {
+	padding-left: 22px;
+	background: url(images/img07.gif) no-repeat left center;
+}
+
+.post .meta b {
+	display: none;
+	
+}
+.post .searchform {
+text-align:center;
+	
+}
+.prompt
+{
+ display: block;
+ text-align:left;
+    margin: 1em auto;
+	border: 1px solid #86910F;
+	padding: 20px 10px 30px 20px;
+
+}
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+input{
+	border: 1px solid #86910F;
+	/** remember to change image path **/
+	padding: 5px;
+	
+	 -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	font-style: normal;
+	font-size: 12px;
+	color: #454743;
+}
+
+/** You can use this style for your LABEL elements **/
+.labelstyle {
+	
+	font-style: bold;
+	font-size: 14px;
+	
+}
+
+#author{
+	font: x-small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#cmodform label.error {
+color:red;
+}
+#cmodform input.error {
+border:1px solid red;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+button, .button {
+  background-color: #C0CD56;
+  color: white;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 5px 5px 0 0px;
+  cursor: pointer; }
+  button:focus, .button:focus {
+    outline: none; }
+  button:hover, .button:hover {
+    background-color: #A5B80D; }
+  button:active, .button:active {
+    background-color: #84930A; }
